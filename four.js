@@ -1,0 +1,12 @@
+let a = 12;
+console.log(typeof a);
+a = "Hi";
+console.log(typeof a);
+a=false;
+console.log(typeof a);
+a=undefined;
+console.log(typeof a);
+a=null;
+console.log(typeof a);
+a='c';
+console.log(typeof a);
