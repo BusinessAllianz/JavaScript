@@ -22,6 +22,6 @@ let students = {
         console.log("Percentage = "+ sum/this.marks.length);
     }
 };
-
+console.log(students.name);
 students.calculatePercentage();
 
