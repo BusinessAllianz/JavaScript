@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+</head>
+<body>
+    <div>
+        <p class="abc">A</p>
+        <p class="abc">B</p>
+        <p id="test1" class="abc">C</p>
+    </div>
+
+    <script>
+        let d1 = document.querySelectorAll(".abc");
+        console.log(d1);
+
+        let d2 = document.querySelectorAll("#test1");
+        console.log(d2);
+    </script>
+</body>
+</html>

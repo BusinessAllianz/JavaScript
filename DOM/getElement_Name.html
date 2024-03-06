@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Element by Name</title>
+</head>
+<body>
+    <div>
+        <label>Select Color : </label>
+        <input name="color" type="radio"> Red
+        <input name="color" type="radio"> Yellow
+        <input name="color" type="radio"> Green
+        <input name="color" type="radio"> Pink
+
+        <p name="m1">Hello!</p>
+        <h2 name="m1">I am Heading -2 </h2>
+        <a name="m1" href="www.google.com">Google</a>
+    </div>
+
+    <script>
+      let colorArray =   document.getElementsByName("color");
+      console.log(colorArray);
+
+      let m11 = document.getElementsByName("m1");
+      console.log(m11);
+    </script>
+
+
+</body>
+</html>
